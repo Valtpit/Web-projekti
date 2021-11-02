@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <title>Ymppävisa</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Arapey&family=Indie+Flower&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/yleinen.css" />
+    <link rel="stylesheet" href="css/vayrynen.css">
+    <meta content="Anu Väyrynen" name="author">
+  </head>
+
+  <body>
+    <div class="set">
+            <div><img src="img/ykkonen.png"></div>
+            <div><img src="img/kakkonen.png"></div>
+            <div><img src="img/kolmonen.png"></div>
+            <div><img src="img/nelonen.png"></div>
+            <div><img src="img/vitonen.png"></div>
+            <div><img src="img/ykkonen.png"></div>
+            <div><img src="img/kakkonen.png"></div>
+            <div><img src="img/kolmonen.png"></div>
+            <div><img src="img/nelonen.png"></div>
+            <div><img src="img/vitonen.png"></div>
+        </div>
+    <main>
+      <header>
+        <h1>Visailu-projekti</h1>
+        
+        <nav class="navi navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Etusivu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="tietoja.html">Tietoja</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Pitkänen
+                    </a>
+                    <ul class="navi dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="navi dropdown-item" href="pitkanen1.html">Sanaluokkavisa</a></li>
+                      <li><a class="navi dropdown-item" href="pitkanen2.html">Klikkauspeli</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Karjalainen
+                    </a>
+                    <ul class="navi dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="navi dropdown-item" href="karjalainen1.html">Kesävisa</a></li>
+                      <li><a class="navi dropdown-item" href="karjalainen2.html">Matikkapeli</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Vähäkuopus
+                    </a>
+                    <ul class="navi dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="navi dropdown-item" href="vahakuopus.html">Maantietovisa</a></li>
+                      <li><a class="navi dropdown-item" href="vahakuopus2.html">Peli</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Nevala
+                    </a>
+                    <ul class="navi dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="navi dropdown-item" href="nevala1.html">Eläintietovisa</a></li>
+                      <li><a class="navi dropdown-item" href="nevala2.html">Matikkapeli</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Väyrynen
+                    </a>
+                    <ul class="navi dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="navi dropdown-item" href="vayrynen.html">Ymppävisa</a></li>
+                        <li><a class="navi dropdown-item" href="vayrynen1.html">Matikkavisa</a></li>
+                    </ul>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+        </nav>
+        </div>
+      </header>
+
+      <article>
+        
+        <section class="visailu row justify-content-evenly">
+            <h2>Ymppävisa</h2>
+            <p>Minkä tasoisia kysymyksiä haluat? Kysymykset on jaettu luokittaiseen järjestykseen sisällön mukaisesti.</p>
+            <ul>
+                <li>
+                    <input type="radio" id="yks" name="määrä" class="kysymys" value=1>
+                    <label for="kysymysm">1.luokka</label>
+                </li>
+                <li>
+                    <input type="radio" id="kaks" name="määrä" class="kysymys" value=2>
+                    <label for="kysymysm">2.luokka</label>
+                </li>
+                <li>
+                    <input type="radio" id="kol" name="määrä" class="kysymys" value=3>
+                    <label for="kysymysm">3.luokka</label>
+                </li>
+                <li>
+                    <input type="radio" id="nel" name="määrä" class="kysymys" value=4>
+                    <label for="kysymysm">4.luokka</label>
+                </li>
+                <li>
+                    <input type="radio" id="viis" name="määrä" class="kysymys" value=5>
+                    <label for="kysymysm">5.luokka(kesken)</label>
+                </li>
+                <li>
+                    <input type="radio" id="kuus" name="määrä" class="kysymys" value=6>
+                    <label for="kysymysm">6.luokka(kesken)</label>
+                </li>
+            </ul>
+
+        <div id="kysymys1" class="näytä">
+                <section>
+                <figure>
+                <img src="kuvat/magpie.jpg"></figure>
+                <p>1. Mikä eläin kuvassa on?</p>
+                <ul>
+                    <li>
+                        <input type="radio" id="kysymysa" name="harakka" class="tintti" value=0>
+                        <label for="kysymysa">Naakka</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysb" name="harakka" class="tintti" value=0>
+                        <label for="kysymysb">Kotka</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysc" name="harakka" class="tintti" value=1>
+                        <label for="kysymysc">Harakka</label>
+                    </li>
+                </ul>
+                <p id="vastaus" class="not_visible">Kuvan eläin on harakka.</p>
+                </section>
+                <section>
+                    <figure>
+                    <img src="kuvat/spruce.jpg"></figure>
+                    <p>2.Minkä käpyjä kuvassa on?</p>
+                    <ul>
+                        <li>
+                            <input type="radio" id="kysymys" name="kuusi" class="käpy" value=1>
+                            <label for="kysymys">Kuusen</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="kysymysd" name="kuusi" class="käpy" value=0>
+                            <label for="kysymysd">Lehtikuusen</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="kysymyse" name="kuusi" class="käpy" value=0>
+                            <label for="kysymyse">Männyn</label>
+                        </li>
+                    </ul>
+                    <p id="vastaus" class="not_visible">Kävyt kuvassa kuuluvat kuuselle. Huomaa lyhyet neulaset ja kävyn muoto.</p>
+                </section>
+                <section>
+                    <figure>
+                    <img src="kuvat/acorn.jpg"></figure>
+                    <p>3.Mitä kuvassa on?</p>
+                    <ul>
+                        <li>
+                            <input type="radio" id="kysymysf" name="tammi" class="terho" value=0>
+                            <label for="kysymysf">Hasselpähkinöitä</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="kysymysg" name="tammi" class="terho" value=1>
+                            <label for="kysymysg">Tammenterhoja</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="kysymysh" name="tammi" class="terho" value=0>
+                            <label for="kysymysh">Katajanmarjoja</label>
+                        </li>
+                    </ul>
+                    <p id="vastaus" class="not_visible">Kuvassa näkyy tammenterhoja. Sellaista Ice Age-elokuvissa oleva orava yrittää syödä.</p>
+                </section>
+                <section>
+                    <figure>
+                    <img src="kuvat/great-tit.jpg"></figure>
+                    <p>4. Mikä lintu kuvassa on?</p>
+                    <ul>
+                        <li>
+                            <input type="radio" id="kysymysi" name="tit" class="tit" value=0>
+                            <label for="kysymysi">Haikara</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="kysymysj" name="tit" class="tit" value=1>
+                            <label for="kysymysj">Talitiainen</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="kysymysk" name="tit" class="tit" value=0>
+                            <label for="kysymysk">Talitintti</label>
+                        </li>
+                    </ul>
+                    <p id="vastaus" class="not_visible">Kuvassa on talitiainen. Talitintti on kutsumanimi talitiaiselle.</p>
+                </section>
+                <section>
+                    <figure>
+                    <img src="kuvat/juniper.jpg"></figure>
+                    <p>5. Mitä marjoja kuvassa näkyy?</p>
+                    <ul>
+                        <li>
+                            <input type="radio" id="kysymysl" name="kataja" class="marja" value=0>
+                            <label for="kysymysl">Pihlajanmarjoja</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="kysymysm" name="kataja" class="marja" value=0>
+                            <label for="kysymysm">Mustikoita</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="kysymysn" name="kataja" class="marja" value=1>
+                            <label for="kysymysn">Katajanmarjoja</label>
+                        </li>
+                    </ul>
+                    <p id="vastaus" class="not_visible">Kuvan marjat ovat katajanmarjoja.</p>
+                    <h3 class="tulos näytä"></h3>
+                    <button class="nappi näytä"onClick="location.href=location.href">Kokeile uudelleen</button>
+                </section>
+                   
+        </div>
+        <div id="kysymys2" class="näytä">
+                <section>
+                    <figure>
+                    <img src="kuvat/bear.jpg"></figure>
+                    <p>1.Miksi karhua voi myös kutsua?</p>
+                    <ul>
+                        <li>
+                            <input type="radio" id="kysymyso" name="karhu" class="nalle" value=0>
+                            <label for="kysymyso">Mörrimöykyksi</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="kysymysp" name="karhu" class="nalle" value=0>
+                            <label for="kysymysp">Karvapalloksi</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="kysymysq" name="karhu" class="nalle" value=1>
+                            <label for="kysymysq">Mesikämmeneksi</label>
+                        </li>
+                    </ul>
+                    <p id="vastaus" class="not_visible">Karhua kutsutaan joskus mesikämmeneksi. Tiesitkö että jotkut kutsuvat sitä myös metsän kuninkaaksi?</p>
+                </section>
+                <section>
+                    <figure>
+                    <img src="kuvat/swan.jpg"></figure>
+                    <p>2.Mikä lintu on Suomen kansallislintu?</p>
+                    <ul>
+                        <li>
+                            <input type="radio" id="kysymysr" name="joutsen" class="laulu" value=1>
+                            <label for="kysymysr">Laulujoutsen</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="kysymyss" name="joutsen" class="laulu" value=0>
+                            <label for="kysymyss">Kuikka</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="kysymyst" name="joutsen" class="laulu" value=0>
+                            <label for="kysymyst">Huuhkaja</label>
+                        </li>
+                    </ul>
+                    <p id="vastaus" class="not_visible">Laulujoutsen on Suomen kansallislintu. Joutsenet pariutuvat jo nuorena ja solmivat yleensä elinikäisen liiton.</p>
+                </section>
+                <section>
+                    <figure>
+                    <img src="kuvat/fox.jpg"></figure>
+                    <p>3. Happamia, sanoi kettu mistä?</p>
+                    <ul>
+                        <li>
+                            <input type="radio" id="kysymysu" name="pihlaja" class="marjat" value=0>
+                            <label for="kysymysu">Variksenmarjoista</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="kysymysv" name="pihlaja" class="marjat" value=1>
+                            <label for="kysymysv">Pihlajanmarjoista</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="kysymysw" name="pihlaja" class="marjat" value=0>
+                            <label for="kysymysw">Puolukoista</label>
+                        </li>
+                    </ul>
+                    <p id="vastaus" class="not_visible">Kettu löysi pihlajapuun, ja halusi syödä marjoja. 
+                        Hän yritti napata niitä puusta, mutta ne ovat liian korkealla. Jonkin aikaa turhaan yritettyään 
+                        kettu totesi: ”Ne ovat kuitenkin happamia”, ja lähti murheissaan pois. Tarinan opetus on, että 
+                        ihmiset tapaavat haukkua sellaisia asioita, joita he eivät saa. </p>
+                </section>
+                <section>
+                    <figure>
+                    <img src="kuvat/dog.jpg"></figure>
+                    <p>4. Mikä näistä on suurikokoisin nykyisin elävä koiraeläinlaji?</p>
+                    <ul>
+                        <li>
+                            <input type="radio" id="kysymysx" name="susi" class="koira" value=0>
+                            <label for="kysymysx">Kettu</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="kysymysy" name="susi" class="koira" value=0>
+                            <label for="kysymysy">Naali</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="kysymysz" name="susi" class="koira" value=1>
+                            <label for="kysymysz">Susi</label>
+                        </li>
+                    </ul>
+                    <p id="vastaus" class="not_visible">Susi on suurikokoisin nykyisin elävä koiraeläinlaji.
+                        Urokset ovat tyypillisesti kookkaampia kuin naaraat. Suden pituus on 100–140 
+                        senttimetriä ja paino yleensä 20–50 kilogrammaa.</p>
+                </section>
+                <section>
+                    <figure>
+                    <img src="kuvat/hedgehog.jpg"></figure>
+                    <p>5. Mikä väittämä on oikein?</p>
+                    <ul>
+                        <li>
+                            <input type="radio" id="kysymyså" name="siili" class="sihi" value=1>
+                            <label for="kysymyså">Siilit ovat yöeläimiä, jotka elävät keskimäärin 3-4 vuoden ikäiseksi.</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="kysymysä" name="siili" class="sihi" value=0>
+                            <label for="kysymysä">Siili syö luonnossa viiliä ja havunneulasia.</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="kysymysö" name="siili" class="sihi" value=0>
+                            <label for="kysymysö">Siilit ovat kauttaaltaan piikikkäitä.</label>
+                        </li>
+                    </ul>
+                    <p id="vastaus" class="not_visible">Siilit ovat yöeläimiä ja elävät keskimäärin 3-4 vuoden ikäiseksi.
+                        Luonnossa siilit syövät melkein kaikki sopivan kokoinen ruoka hyönteisistä pieniin selkärankaisiin.
+                        Siili käpertyy puolustautuessaan kerälle, suojatakseen sen vatsan joka on tuuhean karvoituksen peitossa.
+                    </p>
+                    <h3 class="tulos näytä"></h3>
+                    <button class="nappi näytä"onClick="location.href=location.href">Kokeile uudelleen</button>
+                </section>
+        </div>
+    
+        <div id="kysymys3" class="näytä">
+            <section>
+                <p>1. Siankärsämön kukinto on?</p>
+                <ul>
+                    <li>
+                        <input type="radio" id="kysymysa1" name="sian" class="kärsämö" value=0>
+                        <label for="kysymysa1">Keltainen</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysb1" name="sian" class="kärsämö" value=1>
+                        <label for="kysymysb1">Valkoinen</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysc1" name="sian" class="kärsämö" value=0>
+                        <label for="kysymysc1">Sininen</label>
+                    </li>
+                </ul>
+                <p id="vastaus" class="not_visible">Huiskilomaiset kukinnot muodostuvat pienistä 
+                    valkoisista tai vaaleanpunaisista, tuoksuvista kukista. Tuoksu houkuttelee 
+                    hyönteisiä, jotka samalla suorittavat siankärsämön pölytyksen.
+                </p>
+            </section>
+            <section>
+                <p>2. Mikä on jään olomuoto?</p>
+                <ul>
+                    <li>
+                        <input type="radio" id="kysymysd1" name="vesi" class="olo" value=0>
+                        <label for="kysymysd1">Neste</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymyse1" name="vesi" class="olo" value=1>
+                        <label for="kysymyse1">Kiinteä</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysf1" name="vesi" class="olo" value=0>
+                        <label for="kysymysf1">Kaasu</label>
+                    </li>
+                </ul>
+                <p id="vastaus" class="not_visible">Jää on veden kiinteä olomuoto. Normaalipaineessa makea vesi jäätyy 0 °C:n lämpötilassa. 
+                    Ainoastaan vesi jäätyy ja muodostaa jäätä. Muut aineet jähmettyvät ja muodostavat kiinteitä olomuotoja. Vesi laajenee jäätyessään, 
+                    joten maaperässä olevan veden jäätyminen saattaa aiheuttaa muun muassa routimista, kivien rapautumista sekä rakenteiden routahaittoja.
+                </p>
+            </section>
+            <section>
+                <p>3. Mikä ei ole osa veden kiertokulkua?</p>
+                <ul>
+                    <li>
+                        <input type="radio" id="kysymysg1" name="veden" class="kierto" value=1>
+                        <label for="kysymysg1">Auringosta sataa maahan vettä, joka virtaa järviin, jokiin ja meriin.</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysh1" name="veden" class="kierto" value=0>
+                        <label for="kysymysh1">Vesipisarat muodostavat pilviä joista vesipisarat putoavat maanpinnalle joko sateena tai lumena.</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysi1" name="veden" class="kierto" value=0>
+                        <label for="kysymysi1">Osa sateesta imeytyy maaperään, syvemmällä maan huokoset täyttyvät vedellä ja muodostuu pohjavettä.</label>
+                    </li>
+                </ul>
+                <p id="vastaus" class="not_visible">Auringon lämpö haihduttaa merien vettä näkymättömäksi vesihöyryksi. 
+                    Jäähtyessään vesihöyry tiivistyy pilviksi. 
+                    Maahan satanut vesi virtaa järviin, jokiin ja meriin. 
+                    Osa pohjavedestä purkautuu maaperästä jokiin ja järviin tai tihkuu maanpinnalla oleviin lähteisiin.
+                    Syvälle maaperään vajonnut vesi voi olla siellä pitkiäkin aikoja. 
+                    Lopulta pohjavesi virtaa meriin pitäen yllä veden kiertokulkua.
+                </p>
+            </section>
+            <section>
+                <p>4. Mitä eroa merivedellä on makean veden kanssa?</p>
+                <ul>
+                    <li>
+                        <input type="radio" id="kysymysj1" name="meri" class="järvi" value=0>
+                        <label for="kysymysj1">Makea vesi jäätyy matalemmassa lämpötilassa kuin merivesi.</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysk1" name="meri" class="järvi" value=0>
+                        <label for="kysymysk1">Merivesi ei jäädy ollenkaan sen suolaisuuden vuoksi.</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysl1" name="meri" class="järvi" value=1>
+                        <label for="kysymysl1">Meriveden jäätymispiste riippuu sen suolaisuudesta, joka alentaa jäätymispistettä.</label>
+                    </li>
+                </ul>
+                <p id="vastaus" class="not_visible">Merivesi jäätyy, kun se on jäähtynyt jäätymispisteeseen. Jäätymispiste riippuu meriveden suolaisuudesta.
+                    Itämerellä esiintyy merijäätä vuosittain. Makea järvivesi jäätyy, kun pintavesi on jäähtynyt jäätymispisteeseen. 
+                    Järviveden jäätymispiste on noin 0 °C, kun taas meriveden jonka suolaisuus on 32 PSU, jäätymispiste on -1,8 °C.
+                </p>
+            </section>
+            <section>
+                <p>5. Miten kasvit ottavat vettä maaperästä?</p>
+                <ul>
+                    <li>
+                        <input type="radio" id="kysymysm1" name="kasvi" class="lehti" value=0>
+                        <label for="kysymysm1">Pillillä.</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysn1" name="kasvi" class="lehti" value=1>
+                        <label for="kysymysn1">Juurilla.</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymyso1" name="kasvi" class="lehti" value=0>
+                        <label for="kysymyso1">Lehdillä.</label>
+                    </li>
+                </ul>
+                <p id="vastaus" class="not_visible">Juuri on kasvin maanalainen osa, joka ankkuroi kasvin paikalleen ja imee maaperästä ravinteita sekä vettä kasvin käyttöön.
+                    Juurista haarautuvat juurikarvat, jotka mahdollistavat veteen liuenneiden ravinteiden oton.
+                    Luonnossa esiintyviä syömäkelpoisia juuria nimitetään juuriksi. Ihmisen kasvattamina niitä nimitetään juureksiksi.
+                </p>
+                <h3 class="tulos näytä"></h3>
+                <button class="nappi näytä"onClick="location.href=location.href">Kokeile uudelleen</button>
+            </section>
+        </div>
+        <div id="kysymys4" class="näytä">
+            <section>
+                <p>1. Miten kasvit tuottavat oman energiansa?</p>
+                <ul>
+                    <li>
+                        <input type="radio" id="kysymysp1" name="yhtey" class="ttää" value=0>
+                        <label for="kysymysp1">Kasvamalla</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysq1" name="yhtey" class="ttää" value=0>
+                        <label for="kysymysq1">Kukkimalla</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysr1" name="yhtey" class="ttää" value=1>
+                        <label for="kysymysr1">Yhteyttämällä</label>
+                    </li>
+                </ul>
+                <p id="vastaus" class="not_visible">Yhteyttämisen avulla kasvi tuottaa oman energiansa.
+    
+                    Kasvi tarvitsee auringon valoa, ilmasta hiilidioksidia (CO2)ja maasta vettä (H2O). 
+                    Näistä aineista lehden viherhiukkasessa valmistuu sokeria. 
+                    Sivutuotteena syntyy kaikille eliöille elintärkeää happea (O2).
+                </p>
+            </section>
+            <section>
+                <p>2. Miksi kutsutaan uros sikaa?</p>
+                <ul>
+                    <li>
+                        <input type="radio" id="kysymyss1" name="sika" class="possu" value=0>
+                        <label for="kysymyss1">Armas</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymyst1" name="sika" class="possu" value=1>
+                        <label for="kysymyst1">Karju</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysu1" name="sika" class="possu" value=0>
+                        <label for="kysymysu1">Emakko</label>
+                    </li>
+                </ul>
+                <p id="vastaus" class="not_visible">Uros sikaa kutsutaan karjuksi. Emakko taas on naaras sika.
+                Sika on eurooppalaisesta villisiasta hyötyeläimeksi jalostettu alalaji, jota kasvatetaan yleisesti lihan ja usein myös nahan tuotantoa varten.
+                Sika on hyvin sosiaalinen eläin, joka elää laumassa. Sian poikanen on nimeltään porsas.
+                </p>
+            </section>
+            <section>
+                <p>3. Mitä maanviljelijän tulee tehdä perunapellolle ennen sadon kylvöä?</p>
+                <ul>
+                    <li>
+                        <input type="radio" id="kysymysv1" name="pelto" class="kyntö" value=0>
+                        <label for="kysymysv1">Kastella maaperä</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysx1" name="pelto" class="kyntö" value=0>
+                        <label for="kysymysx1">Korjata sato</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysy1" name="pelto" class="kyntö" value=1>
+                        <label for="kysymysy1">Kyntää maaperä</label>
+                    </li>
+                </ul>
+                <p id="vastaus" class="not_visible">Kylvövaiheessa maa muokataan ensin kylvölle sopivaksi. 
+                    Tämä tapahtuu kyntämällä ja äestämällä maaperä. Kasvukauden aikana maaperää kastellaan 
+                    ja lannoitetaan tarpeen ja mahdollisuuksien mukaan. Kun viljelykasvi on tullut kypsäksi 
+                    eli tuleentunut, on sadonkorjuun aika.
+                </p>
+            </section>
+            <section>
+                <p>4. Mikä oli ensimmäisiä Suomessa viljeltyjä kasveja?</p>
+                <ul>
+                    <li>
+                        <input type="radio" id="kysymysz1" name="viljely" class="vilja" value=1>
+                        <label for="kysymysz1">Hamppu</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymyså1" name="viljely" class="vilja" value=0>
+                        <label for="kysymyså1">Vehnä</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysö1" name="viljely" class="vilja" value=0>
+                        <label for="kysymysö1">Tomaatti</label>
+                    </li>
+                </ul>
+                <p id="vastaus" class="not_visible">Suomen ensimmäiset viljellyt kasvit ovat 
+                    tattari 5300 eaa., hamppu 4800 eaa. ja ohra 4300 eaa. Viljely alkoi siis 
+                    samaan aikaan kuin Keski-Euroopassa. Tattarin ja hampun viljely on levinnyt 
+                    Suomeen todennäköisesti Kiinasta.
+                </p>
+            </section>
+            <section>
+                <p>5. Miksin kasvihuoneessa tarvitaan leppäkerttuja?</p>
+                <ul>
+                    <li>
+                        <input type="radio" id="kysymysä1" name="leppä" class="kerttu" value=0>
+                        <label for="kysymysä1">Koristeeksi.</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysa2" name="leppä" class="kerttu" value=0>
+                        <label for="kysymysa2">Hajoittamaan kasvien osia.</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysb2" name="leppä" class="kerttu" value=1>
+                        <label for="kysymysb2">Syömään kirvoja.</label>
+                    </li>
+                </ul>
+                <p id="vastaus" class="not_visible"> Leppäkertut ovat puolipallon muotoisia ja hidasliikkeisiä 
+                    vajaan 10 mm pituisia hyönteisiä. Niiden peitinsiivet ovat usein pilkulliset, ja pilkkujen 
+                    määrä ja väritys vaihtelevat lajikohtaisesti. Kirkkaalla värillään ne varoittavat muita petoja 
+                    pahanmakuisuudestaan. Monet leppäkertut syövät kirvoja niin aikuisena kuin toukkanakin. 
+                    Leppäkerttuja hyödynnetäänkin etenkin kilpikirvojen torjunnassa. Jotkin lajit syövät muutakin 
+                    ruokaa, kuten punkkeja, siitepölyä, mettä, kasveja tai härmäsieniä. Jotkin lajit eivät syö kirvoja 
+                    lainkaan.
+                </p>
+                <h3 class="tulos näytä"></h3>
+                <button class="nappi näytä"onClick="location.href=location.href">Kokeile uudelleen</button>
+            </section>
+            
+        </div>
+        <div id="kysymys5" class="näytä">
+            <section>
+                <p>1. Mitä jokamiehen oikeudet eivät oikeuta?</p>
+                <ul>
+                    <li>
+                        <input type="radio" id="kysymysc2" name="joka" class="mies" value=0>
+                        <label for="kysymysc2">Oleskella ja yöpyä tilapäisesti alueilla, joilla liikkuminenkin on sallittua</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysd2" name="joka" class="mies" value=1>
+                        <label for="kysymysd2">Ottamaan sammalta tai jäkälää</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymyse2" name="joka" class="mies" value=0>
+                        <label for="kysymyse2">Poimia luonnonmarjoja, sieniä ja rauhoittamattomia kasveja </label>
+                    </li>
+                </ul>
+                <p id="vastaus" class="not_visible"> Jokamiehenoikeuksilla tarkoitetaan jokaisen oikeutta 
+                    käyttää luontoa siitä riippumatta, kuka omistaa alueen tai on sen haltija. Luonnon 
+                    käyttämiseen jokamiehenoikeuksien sallimissa rajoissa ei siis tarvita maanomistajan 
+                    lupaa eikä oikeuksien käyttämisestä tarvitse maksaa mitään. Jokamiehenoikeudella toimiminen
+                     ei saa aiheuttaa vähäistä suurempaa haittaa maanomistajalle, maankäytölle tai luonnolle.
+                </p>
+
+                
+            </section>
+            <section>
+                <p>2. ???</p>
+                <ul>
+                    <li>
+                        <input type="radio" id="kysymysf2" name="leppä" class="kerttu" value=0>
+                        <label for="kysymysf2">Vastaus</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysg2" name="leppä" class="kerttu" value=0>
+                        <label for="kysymysg2">Vastaus</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysh2" name="leppä" class="kerttu" value=1>
+                        <label for="kysymysh2">Vastaus</label>
+                    </li>
+                </ul>
+                <p id="vastaus" class="not_visible"> Selite
+                </p>
+
+                
+            </section><section>
+                <p>3. ???</p>
+                <ul>
+                    <li>
+                        <input type="radio" id="kysymysi2" name="leppä" class="kerttu" value=0>
+                        <label for="kysymysi2">Vastaus</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysj2" name="leppä" class="kerttu" value=0>
+                        <label for="kysymysj2">Vastaus</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysk2" name="leppä" class="kerttu" value=1>
+                        <label for="kysymysk2">Vastaus</label>
+                    </li>
+                </ul>
+                <p id="vastaus" class="not_visible"> Selite
+                </p>
+
+                
+            </section><section>
+                <p>4. ???</p>
+                <ul>
+                    <li>
+                        <input type="radio" id="kysymysl2" name="leppä" class="kerttu" value=0>
+                        <label for="kysymysl2">Vastaus</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysm2" name="leppä" class="kerttu" value=0>
+                        <label for="kysymysm2">Vastaus</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysn2" name="leppä" class="kerttu" value=1>
+                        <label for="kysymysn2">Vastaus</label>
+                    </li>
+                </ul>
+                <p id="vastaus" class="not_visible"> Selite
+                </p>
+
+                
+            </section><section>
+                <p>5. ???</p>
+                <ul>
+                    <li>
+                        <input type="radio" id="kysymyso2" name="leppä" class="kerttu" value=0>
+                        <label for="kysymyso2">Vastaus</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysp2" name="leppä" class="kerttu" value=0>
+                        <label for="kysymysp2">Vastaus</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysq2" name="leppä" class="kerttu" value=1>
+                        <label for="kysymysq2">Vastaus</label>
+                    </li>
+                </ul>
+                <p id="vastaus" class="not_visible"> Selite
+                </p>
+
+                <h3 class="tulos näytä"></h3>
+                <button class="nappi näytä"onClick="location.href=location.href">Kokeile uudelleen</button>
+            </section>
+        </div>
+
+
+            <div id="kysymys6" class="näytä">           <section>
+                <p>1. ???</p>
+                <ul>
+                    <li>
+                        <input type="radio" id="kysymysr2" name="leppä" class="kerttu" value=0>
+                        <label for="kysymysr2">Vastaus</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymyss2" name="leppä" class="kerttu" value=0>
+                        <label for="kysymyss2">Vastaus</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymyst2" name="leppä" class="kerttu" value=1>
+                        <label for="kysymyst2">Vastaus</label>
+                    </li>
+                </ul>
+                <p id="vastaus" class="not_visible"> Selite
+                </p>
+
+                
+            </section>
+            <section>
+                <p>2. ???</p>
+                <ul>
+                    <li>
+                        <input type="radio" id="kysymysu2" name="leppä" class="kerttu" value=0>
+                        <label for="kysymysu2">Vastaus</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysv2" name="leppä" class="kerttu" value=0>
+                        <label for="kysymysv2">Vastaus</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysw2" name="leppä" class="kerttu" value=1>
+                        <label for="kysymysw2">Vastaus</label>
+                    </li>
+                </ul>
+                <p id="vastaus" class="not_visible"> Selite
+                </p>
+
+                
+            </section><section>
+                <p>3. ???</p>
+                <ul>
+                    <li>
+                        <input type="radio" id="kysymysx2" name="leppä" class="kerttu" value=0>
+                        <label for="kysymysx2">Vastaus</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysy2" name="leppä" class="kerttu" value=0>
+                        <label for="kysymysy2">Vastaus</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysz2" name="leppä" class="kerttu" value=1>
+                        <label for="kysymysz2">Vastaus</label>
+                    </li>
+                </ul>
+                <p id="vastaus" class="not_visible"> Selite
+                </p>
+
+                
+            </section><section>
+                <p>4. ???</p>
+                <ul>
+                    <li>
+                        <input type="radio" id="kysymyså2" name="leppä" class="kerttu" value=0>
+                        <label for="kysymyså2">Vastaus</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysö2" name="leppä" class="kerttu" value=0>
+                        <label for="kysymysö2">Vastaus</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysä2" name="leppä" class="kerttu" value=1>
+                        <label for="kysymysä2">Vastaus</label>
+                    </li>
+                </ul>
+                <p id="vastaus" class="not_visible"> Selite
+                </p>
+
+                
+            </section><section>
+                <p>5. ???</p>
+                <ul>
+                    <li>
+                        <input type="radio" id="kysymysa3" name="leppä" class="kerttu" value=0>
+                        <label for="kysymysa3">Vastaus</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysb3" name="leppä" class="kerttu" value=0>
+                        <label for="kysymysb3">Vastaus</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="kysymysc3" name="leppä" class="kerttu" value=1>
+                        <label for="kysymysc3">Vastaus</label>
+                    </li>
+                </ul>
+                <p id="vastaus" class="not_visible"> Selite
+                </p>
+
+                <h3 class="tulos näytä"></h3>
+                <button class="nappi näytä"onClick="location.href=location.href">Kokeile uudelleen</button>
+            </section></div>
+        </section>
+    </article>
+
+    <footer class="row">
+        <div class= "col-12 col-md-6">
+            <p class="text-center text-md-start text-lg-start">Ryhmä 7</p>
+        </div>
+        <div class= "col-12 col-md-6">
+            <p class="text-center text-md-end text-lg-end">Web-projekti:Projektityö <br> 2021</p>
+        </div>
+    
+    </footer>
+        
+    </main>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" 
+  integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" 
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" 
+  integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" 
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" 
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+  crossorigin="anonymous"></script>
+  <script src="js/vayrynen.js"></script>
+</html>
+

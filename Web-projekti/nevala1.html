@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+  <title>Eläintietovisa</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Arapey&family=Indie+Flower&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+  <meta name="author" content="StudyGroup 7">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/yleinen.css" />
+  <link rel="stylesheet" href="css/nevala.css"/>
+</head>
+
+<body>
+  <div class="set">
+    <div><img src="img/ykkonen.png"></div>
+    <div><img src="img/kakkonen.png"></div>
+    <div><img src="img/kolmonen.png"></div>
+    <div><img src="img/nelonen.png"></div>
+    <div><img src="img/vitonen.png"></div>
+    <div><img src="img/ykkonen.png"></div>
+    <div><img src="img/kakkonen.png"></div>
+    <div><img src="img/kolmonen.png"></div>
+    <div><img src="img/nelonen.png"></div>
+    <div><img src="img/vitonen.png"></div>
+  </div>
+  <main>
+    <header>
+      <h1>Visailu-projekti</h1>
+
+      <nav class="navi navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Etusivu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tietoja.html">Tietoja</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Pitkänen
+                </a>
+                <ul class="navi dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="navi dropdown-item" href="pitkanen1.html">Sanaluokkavisa</a></li>
+                  <li><a class="navi dropdown-item" href="pitkanen2.html">Klikkauspeli</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Karjalainen
+                </a>
+                <ul class="navi dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="navi dropdown-item" href="karjalainen1.html">Kesävisa</a></li>
+                  <li><a class="navi dropdown-item" href="karjalainen2.html">Matikkapeli</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Vähäkuopus
+                </a>
+                <ul class="navi dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="navi dropdown-item" href="vahakuopus.html">Maantietovisa</a></li>
+                  <li><a class="navi dropdown-item" href="vahakuopus2.html">Peli</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Nevala
+                </a>
+                <ul class="navi dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="navi dropdown-item" href="nevala1.html">Eläintietovisa</a></li>
+                  <li><a class="navi dropdown-item" href="nevala2.html">Matikkapeli</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Väyrynen
+                </a>
+                <ul class="navi dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="navi dropdown-item" href="vayrynen.html">Ymppävisa</a></li>
+                  <li><a class="navi dropdown-item" href="vayrynen1.html">Matikkavisa</a></li>
+                </ul>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+      </div>
+    </header>
+    <div>
+      <img src="img/pikkukissa.jpg" class="card-img-top img-fluid" alt="kissanpentu">
+
+
+    </div>
+
+    <div class="card-body col-12 text-danger">
+      <h2>Tervetuloa pelaamaan eläintietovisaa! Selvitä, oletko todellinen eläinten ystävä vai kaipaatko
+        vielä hieman harjoitusta.</h2>
+        </p>
+      <div class="row justify-content-evenly">
+        <button type="button" id="visa_esille1" class="btn btn-warning col-3"><i class="fa fa-hand-o-down fa-1x"></i><p class="nappi">Testaa tietosi!</p></button>
+        
+      </div>
+      
+
+      <div style="display: none" id="piilossa">
+        <div class="row justify-content-evenly">
+          <div class="col-lg-6 col-md-4">
+            <br>
+            <h2>Kysymys 1</h2>
+            <p class="text-dark">Millä eläimellä sanotaan olevan 7 elämää?</p>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="visa1" value="1" id="visa1a">
+              <label class="form-check-label text-dark" for="visa1a">
+                <p class="ehdotukset">Kissa</p>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="visa1" value="2" id="visa1b">
+              <label class="form-check-label text-dark" for="visa1b">
+               <p class="ehdotukset">Koira</p>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="visa1" value="3" id="visa1c">
+              <label class="form-check-label text-dark" for="visa1c">
+                <p class="ehdotukset">Kilpikonna</p>
+              </label>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-4 ps-lg-5">
+            <br>
+            <h2>Kysymys 2</h2>
+            <p class="text-dark">Mistä eläimestä saat lypsämällä maitoa? </p>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="visa2" value="1" id="visa2a">
+              <label class="form-check-label text-dark" for="visa2a">
+                <p class="ehdotukset">Hevonen</p>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="visa2" value="2" id="visa2b">
+              <label class="form-check-label text-dark" for="visa2b">
+                <p class="ehdotukset">Lehmä</p>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="visa2" value="3" id="visa2c">
+              <label class="form-check-label text-dark" for="visa2c">
+                <p class="ehdotukset">Possu</p>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-evenly">
+          <div class="col-lg-6 col-md-4">
+            <br>
+            <h2>Kysymys 3</h2>
+            <p class="text-dark">Mikä eläin ei pidä punaisesta väristä ja saattaa suuttua jos näkee sitä?</p>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="visa3" value="1" id="visa3a">
+              <label class="form-check-label text-dark" for="visa3a">
+                <p class="ehdotukset">Ampiainen</p>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="visa3" value="2" id="visa3b">
+              <label class="form-check-label text-dark" for="visa3b">
+                <p class="ehdotukset">Härkä</p>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="visa3" value="3" id="visa3c">
+              <label class="form-check-label text-dark" for="visa3c">
+                <p class="ehdotukset">Lammas</p>
+              </label>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-4 ps-lg-5">
+            <br>
+            <h2>Kysymys 4</h2>
+            <p class="text-dark">Mikä näistä eläimistä matelee?</p>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="visa4" value="1" id="visa4a">
+              <label class="form-check-label text-dark" for="visa4a">
+                <p class="ehdotukset">Käärme</p>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="visa4" value="2" id="visa4b">
+              <label class="form-check-label text-dark" for="visa4b">
+                <p class="ehdotukset">Kameli</p>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="visa4" value="3" id="visa4c">
+              <label class="form-check-label text-dark" for="visa4c">
+                <p class="ehdotukset">Sammakko</p>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-evenly">
+          <div class="col-lg-6 col-md-4">
+            <br>
+            <h2>Kysymys 5</h2>
+            <p class="text-dark">Millä näistä eläimistä on kyttyrä? </p>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="visa5" value="1" id="visa5a">
+              <label class="form-check-label text-dark" for="visa5a">
+                <p class="ehdotukset">Kilpikonna</p>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="visa5" value="2" id="visa5b">
+              <label class="form-check-label text-dark" for="visa5b">
+                <p class="ehdotukset">Sarvikuono</p>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="visa5" value="3" id="visa5c">
+              <label class="form-check-label text-dark" for="visa5c">
+                <p class="ehdotukset">Kameli</p>
+              </label>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-4 ps-lg-5">
+            <br>
+            <h2>Kysymys 6</h2>
+            <p class="text-dark">Millä eläimellä on kyky vaihtaa väriä?</p>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="visa6" value="1" id="visa6a">
+              <label class="form-check-label text-dark" for="visa6a">
+                <p class="ehdotukset">Kameleontti</p>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="visa6" value="2" id="visa6b">
+              <label class="form-check-label text-dark" for="visa6b">
+                <p class="ehdotukset">Apina</p>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="visa6" value="3" id="visa6c">
+              <label class="form-check-label text-dark" for="visa6c">
+                <p class="ehdotukset">Leopardi</p>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-evenly">
+          <div class="col-lg-6 col-md-4">
+            <br>
+            <h2>Kysymys 7</h2>
+            <p class="text-dark">Mistä eläimestä lähtee paha haju?</p>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="visa7" value="1" id="visa7a">
+              <label class="form-check-label text-dark" for="visa7a">
+                <p class="ehdotukset">Karhu</p>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="visa7" value="2" id="visa7b">
+              <label class="form-check-label text-dark" for="visa7b">
+                <p class="ehdotukset">Haisunäätä</p>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="visa7" value="3" id="visa7c">
+              <label class="form-check-label text-dark" for="visa7c">
+                <p class="ehdotukset">Kettu</p>
+              </label>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-4 ps-lg-5">
+            <br>
+            <h2>Kysymys 8</h2>
+            <p class= "text-dark">Mikä eläin nukkuu talviunta?</p>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="visa8" value="1" id="visa8a">
+              <label class="form-check-label text-dark" for="visa8a">
+                <p class="ehdotukset">Kuukkeli</p>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="visa8" value="2" id="visa8b">
+              <label class="form-check-label text-dark" for="visa8b">
+                <p class="ehdotukset">Koira</p>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="visa8" value="3" id="visa8c">
+              <label class="form-check-label text-dark" for="visa8c">
+                <p class="ehdotukset">Karhu</p>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-evenly">
+          <div class="col-lg-6 col-md-4">
+            <br>
+            <h2>Kysymys 9</h2>
+            <p class= "text-dark">Mikä on maailman suurin nisäkäs?</p>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="visa9" value="1" id="visa9a">
+              <label class="form-check-label text-dark" for="visa9a">
+                <p class="ehdotukset">Kirahvi</p>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="visa9" value="2" id="visa9b">
+              <label class="form-check-label text-dark" for="visa9b">
+                <p class="ehdotukset">Sinivalas</p>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="visa9" value="3" id="visa9c">
+              <label class="form-check-label text-dark" for="visa9c">
+                <p class="ehdotukset">Elefantti</p>
+              </label>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-4 ps-lg-5">
+            <br>
+            <h2>Kysymys 10</h2>
+            <p class= "text-dark">Mikä näistä eläimistä näkee selvästi pimeässä?</p>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="visa10" value="1" id="visa10a">
+              <label class="form-check-label text-dark" for="visa10a">
+                <p class="ehdotukset">Hamsteri</p>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="visa10" value="2" id="visa10b">
+              <label class="form-check-label text-dark" for="visa10b">
+                <p class="ehdotukset">Delfiini</p>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="visa10" value="3" id="visa10c">
+              <label class="form-check-label text-dark" for="visa10c">
+                <p class="ehdotukset">Lepakko</p>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display: none" id="piilossa1">
+        <br>
+          <br>
+          <br>
+        <div class="row justify-content-evenly">
+          
+          <button type="button" id="näytä_tulos" class="btn btn-warning col-3"><p class="nappi2">Tulokset!</p></button>
+        </div>
+      </div>
+      <div class="row justify-content-center pe-10 mt-5 ms-5" style="display: none;" id="tausta">
+        <p class="col-md-6" id="tulos"></p><figure style= "display:none"id="kuva5">
+          <i class="fa fa-trophy fa-5x ps-7" style="color:yellow;" aria-hidden="true"></i>
+        </figure>
+        <figure style= "display:none"id="kuva1">
+          <i class="fa fa-thumbs-o-down fa-4x ps-7 text-lg-end" style="color:red;" aria-hidden="true" id="palaute"></i>
+        </figure>
+      </div>
+   
+</div>
+
+</div>
+
+
+    </div>
+
+
+    <footer class="row">
+      <div class= "col-12 col-md-6">
+          <p class="text-center text-md-start text-lg-start">Ryhmä 7</p>
+      </div>
+      <div class= "col-12 col-md-6">
+          <p class="text-center text-md-end text-lg-end">Web-projekti:Projektityö <br> 2021</p>
+      </div>
+  
+  </footer>
+
+  </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+  integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+  integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="js/nevala1.js" type="text/javascript"></script>
+
+</html>
+
+
+</div>

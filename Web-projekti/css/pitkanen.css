@@ -1,0 +1,67 @@
+.teksti {
+    text-align: center;
+}
+
+.oikein {
+    background-color: rgba(24, 218, 50, 0.6);
+}
+
+.väärin {
+    background-color: rgba(230, 49, 49, 0.6);
+}
+
+#hiddenPic1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.piilo {
+    visibility: hidden;
+}
+
+#buyClick,
+#buyAuto,
+#buyMultiplier,
+#coin {
+    user-select: none;
+}
+
+#buyClickPic,
+#buyAutoPic,
+#buyMultiplierPic,
+.coinPic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#coin {
+  width: 80%;
+}
+
+.bronze {
+    color: brown;
+    font-size: 40px;
+}
+
+.silver {
+    color: silver;
+    font-size: 60px;
+}
+
+.gold {
+    color: gold;
+    font-size: 100px;
+}
+
+.diamond {
+    color: aqua;
+    font-size: 180px;
+}
+
+.bigFont {
+    font-size: 30px;
+}

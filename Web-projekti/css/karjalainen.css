@@ -1,0 +1,54 @@
+.card {
+    padding: 10px 20px 20px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    display: flex;
+}
+
+.card ul {
+    list-style: none;
+    text-align: left;
+    font-size: large;
+}
+
+input[type=radio] {
+    border: 0px;
+    width: 20px;
+}
+
+.question {
+    text-align: left;
+    margin-left: 1em;
+}
+
+.quizContainer {
+    background-color: beige;
+    border-radius: 10px;
+    width: 100%;
+    padding-top: 5px;
+    position:relative;
+    font-size: 2em;
+    font-family: 'Trebuchet MS';
+}
+
+.card h1 {
+    color:darkgreen;
+}
+
+.quizMessage {
+    font-size: medium;
+}
+
+.result {
+    text-align: center;
+}
+
+.card p {
+    font-size: large;
+    margin-left: 1em;
+}
+
+.btn-success {
+    color: black;
+}

@@ -1,0 +1,464 @@
+/* Otsikon tyylimäärittelyjä*/
+h2 {
+font-family:'Courier New', Courier, monospace;
+color: navy;
+font-size: 20px;
+
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    
+    }
+    
+    
+    .answer-options {
+    font-family: "Indie Flower";
+    font-size: 22px;
+    }
+    
+    .kokohomma {
+    display:grid;
+    grid-template-columns: 82% 18%;
+    
+    
+    }
+    #piilossa {
+position: relative;
+
+
+    }
+    
+   
+    .laskut  {
+        font-family: "Indie Flower";
+        font-size: larger;
+        border-radius: 3px;
+        text-align: center;
+        padding-top: 15%;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        }
+    
+        .laskut h1 {
+    display:inline;
+    padding:15px;
+    
+        }
+    
+        .answer-options {
+    font-size: larger;
+    margin-right: 20px;
+    background-color: tomato;
+    padding-left: 10px;
+    
+    
+        }
+    
+        .answer-options h1 {
+    cursor: pointer;
+    color:whitesmoke;
+    border-radius: 3px;
+    margin-top: 10px;
+    text-align: center;
+    width:100%;
+    
+        }
+    
+        .vaihtoehdot {
+    font-size: larger;
+    
+    
+        }
+    
+             /* Siirtymiä ja hovereita vastausvaihtoehdoille */
+        #option1 {
+    background-color: grey;
+    transition: 2s;
+    font-family: "Indie Flower";
+        }
+        #option1:hover{
+    color: teal;
+    background-color: white;
+        }
+    
+        #option2 {
+            background-color: grey;
+            transition: 2s;
+            font-family: "Indie Flower";
+                }
+                #option2:hover{
+            color: teal;
+            background-color: white;
+                }
+    
+                #option3 {
+                    background-color: grey;
+                    transition: 2s;
+                    font-family: "Indie Flower";
+                        }
+                        #option3:hover{
+                    color: teal;
+                    background-color: white;
+                        }
+    
+     /*Visan tekstin tyylimäärittelyjä sekä tuloksen tyylimäärittelyjä */
+          .teksti {
+    font-family: "Indie Flower";
+    font-size: larger;
+    color: black;
+    
+          }
+          .form-check-input {
+cursor: pointer;
+
+          }
+
+          .ehdotukset:hover { color:hotpink
+
+
+          }
+
+          #tulos {
+            font-family: 'Amatic SC', cursive;
+font-size: 30px;
+color: black;
+margin-top: 10px;
+
+          }
+
+          #tausta {
+background-color: #ffadad;
+
+
+          }
+       
+
+          .nappi2 {
+font-family:'Arapey', serif;
+
+          }
+#näytä_tulos:hover {
+  color:indianred
+
+
+}
+/* Uudet fontit laskun numeroille ja symboleille*/
+#num1 {
+  font-family: "Indie Flower";
+
+}
+
+#num2 {
+  font-family: "Indie Flower";
+
+}
+#plussa {
+  font-family: "Indie Flower";
+
+}
+
+#yhtäsuuri {
+  font-family: "Indie Flower";
+
+}
+
+#kysymys {
+  font-family: "Indie Flower";
+
+}
+
+
+
+
+
+       
+
+ 
+/*Hovereita vaihtoehdoille*/
+          #visa_esille1 {
+            font-family:'Arapey', serif;
+            color: white;
+            transition: 2s;
+
+          }
+
+          #visa_esille1:hover {
+color: black;
+
+          }
+
+          #palaute {
+padding: 20px;
+
+
+          }
+          .matikka { font-family: "Indie Flower";
+font-size: 30px;
+
+          }
+          #visa1a {
+            color: white;
+            transition: 2s;
+
+          }
+
+          #visa1a:hover {
+            color: black;
+
+          }
+
+          #visa1b {
+            color: white;
+            transition: 2s;
+
+          }
+
+          #visa1b:hover {
+            color: black;
+
+          }
+
+          #visa1c {
+            color: white;
+            transition: 2s;
+
+          }
+
+          #visa1c:hover {
+            color: black;
+
+          }
+
+          #visa2a {
+            color: white;
+            transition: 2s;
+
+          }
+
+          #visa2a:hover {
+            color: black;
+
+          }
+
+          #visa2b {
+            color: white;
+            transition: 2s;
+
+          }
+
+          #visa2b:hover {
+            color: black;
+
+          }
+
+          #visa2c {
+            color: white;
+            transition: 2s;
+
+          }
+
+          #visa2c:hover {
+            color: black;
+
+          }
+
+          #visa3a {
+            color: white;
+            transition: 2s;
+
+          }
+
+          #visa3a:hover {
+            color: black;
+
+          }
+
+          #visa3b {
+            color: white;
+            transition: 2s;
+
+          }
+
+          #visa3b:hover {
+            color: black;
+
+          }
+
+          #visa3c {
+            color: white;
+            transition: 2s;
+
+          }
+
+          #visa3c:hover {
+            color: black;
+
+          }
+
+          #visa4a {
+            color: white;
+            transition: 2s;
+
+          }
+
+          #visa4a:hover {
+            color: black;
+
+          }
+
+          #visa4b {
+            color: white;
+            transition: 2s;
+
+          }
+
+          #visa4b:hover {
+            color: black;
+
+          }
+
+          #visa4c {
+            color: white;
+            transition: 2s;
+
+          }
+
+          #visa4c:hover {
+            color: black;
+
+          }
+
+          #visa5a {
+            color: white;
+            transition: 2s;
+
+          }
+
+          #visa5a:hover {
+            color: black;
+
+          }
+
+          #visa5b {
+            color: white;
+            transition: 2s;
+
+          }
+
+          #visa5b:hover {
+            color: black;
+
+          }
+
+          #visa6c {
+            color: white;
+            transition: 2s;
+
+          }
+
+          #visa6c:hover {
+            color: black;
+
+          }
+          #visa7a {
+            color: white;
+            transition: 2s;
+
+          }
+
+          #visa7a:hover {
+            color: black;
+
+          }
+
+          #visa8b {
+            color: white;
+            transition: 2s;
+
+          }
+
+          #visa8b:hover {
+            color: black;
+
+          }
+
+          #visa8c {
+            color: white;
+            transition: 2s;
+
+          }
+
+          #visa8c:hover {
+            color: black;
+
+          }
+
+          #visa9a {
+            color: white;
+            transition: 2s;
+
+          }
+
+          #visa9a:hover {
+            color: black;
+
+          }
+
+          #visa9b {
+            color: white;
+            transition: 2s;
+
+          }
+
+          #visa9b:hover {
+            color: black;
+
+          }
+
+          #visa9c {
+            color: white;
+            transition: 2s;
+
+          }
+
+          #visa9c:hover {
+            color: black;
+
+          }
+
+          #visa10a {
+            color: white;
+            transition: 2s;
+
+          }
+
+          #visa10a:hover {
+            color: black;
+
+          }
+
+          #visa10b {
+            color: white;
+            transition: 2s;
+
+          }
+
+          #visa10b:hover {
+            color: black;
+
+          }
+
+          #visa10c {
+            color: white;
+            transition: 2s;
+
+          }
+
+          #visa10c:hover {
+            color: black;
+
+          }
